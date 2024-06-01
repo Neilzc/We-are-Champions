@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgoldenrodyellow;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+.container {
+    text-align: center;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    background-color: #1B1924;
+    height: 95vh;
+    border: 8px solid white;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.inputsection {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.endorsementsection {
+    margin-top: 30px;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    min-height: 150px;
+    max-height: 150px;
+    background: #2b2838;
+    color: #8F8F8F;
+    border: none;
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+button {
+    font-family: inherit;
+    background-color: #28A9F1;
+    color: #04131C;
+    font-weight: 700;
+    padding: 25px 0;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li {
+    text-align: start;
+    list-style: none;
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+}
